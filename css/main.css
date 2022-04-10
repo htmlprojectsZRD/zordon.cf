@@ -31,11 +31,20 @@
         color: white;
       }
       .welcome {
-        color: blueviolet;
-        font-size: 24px;
+        color: blue;
+        font-size: 16px;
         text-align: middle;
       }
       .date {
-
-font-size: 12px;
+      font-size: 12px;
       }
+      .contact{
+        text-align: center;
+        font-size: 28px;
+        color: blueviolet;
+    }
+    .news-text {
+      color: blueviolet;
+      font-size: 24px;
+      text-align: middle;
+    }
