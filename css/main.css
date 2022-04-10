@@ -31,7 +31,7 @@
         color: white;
       }
       .welcome {
-        color: blue;
+        color: rgb(0, 162, 255);
         font-size: 16px;
         text-align: middle;
       }
@@ -48,3 +48,10 @@
       font-size: 24px;
       text-align: middle;
     }
+
+    .views {
+      color: rgb(141, 226, 43);
+      font-size: 24px;
+      text-align: middle;
+    }
+

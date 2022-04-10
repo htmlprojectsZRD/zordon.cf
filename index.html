@@ -5,9 +5,12 @@
 <link rel="stylesheet" href="https://azordon.cf/css/main.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script async src="https://api.countapi.xyz/hit/azordon.cf/0b0786fe-4d9e-40f4-b8a7-b117a3c13d55?callback=value" async></script>
-<script src="https://azordon.cf/js/counter.js"></script>
-
+<script>
+function cb(response) {
+document.getElementById('visits').innerText = response.value;
+}
+</script>
+<script async src="https://api.countapi.xyz/hit/azordon.cf/visits?callback=cb"></script>
 <style>
 </style>
 </head>
@@ -27,6 +30,8 @@
 <p>download apps</p>
 <p>be up to date with news</p>
 <p></p>
-<p>Page views <span id="visits"></p>
+
 </div>
- 
+<div class="views">
+<p>Page views: <span id="visits"></p>
+</div>
