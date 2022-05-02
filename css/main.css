@@ -1,6 +1,6 @@
 
     body {
-      background-color: rgb(0, 17, 255);
+      background-color: rgb(66, 66, 68);
       font-family: 'Alegreya Sans SC';font-size: 22px;
     }
     .topnav {
@@ -28,7 +28,7 @@
       
       /* Add a color to the active/current link */
       .topnav a.active {
-        background-color: #00ffc8;
+        background-color: #8666fa;
         color: white;
       }
       .welcome {
