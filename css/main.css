@@ -151,6 +151,17 @@
       width: 50%;
     }
 
+    .Abandoned {
+      color: rgb(255, 0, 0);
+      font-size: 16px;
+      text-align: middle;
+    }
+    .Project-todo {
+      color: rgb(179, 255, 0);
+      font-size: 16px;
+      text-align: middle;
+    }
+
     /* Styles, not important */
     *, *:before, *:after {
       box-sizing: border-box;
