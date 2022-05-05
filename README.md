@@ -1,2 +1,0 @@
-# zordon.cf
-My site

@@ -42,10 +42,10 @@
       .contact{
         text-align: center;
         font-size: 28px;
-        color: blueviolet;
+        color:rgb(0, 174, 255);
     }
     .news-text {
-      color: blueviolet;
+      color:rgb(0, 174, 255);
       font-size: 24px;
       text-align: middle;
     }
@@ -120,8 +120,39 @@
       
       transition: width .2s ease-out, padding-top .2s ease-out;
     }
+
+    .fauxcrop {
+     size: 20px
+     text-align center
+    }
+    .text-size-news {
+    font-size: medium
+    color rgb(0, 174, 255)
+    }
     
+    .main-projects-github {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .canceled-projects-github {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .soon-projects-github {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
     /* Styles, not important */
     *, *:before, *:after {
       box-sizing: border-box;
     }
+
