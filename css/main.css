@@ -1,22 +1,48 @@
 
     body {
-      background-color: rgb(66, 66, 68);
-      font-family: 'Alegreya Sans SC';font-size: 22px;
+		margin-left: 270px;
+		margin: 0;
+      background-color: #000000;
+      font-family: "Trirong", serif;
+	  font-size: 22px;
     }
+
+    .center {
+		margin-left: 300px;
+		text-align: center;
+	    padding: 10px;
+	    margin: auto;
+        width: 50%;
+		color: white;
+		align: center;
+		font-family: "Trirong", serif;
+	}
     .topnav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 100%;
+        list-style: none;
         background-color: rgb(26, 27, 20);
         overflow: hidden;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
         
       }
       
       /* Style the links inside the navigation bar */
       .topnav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
+        display: inline-block;
         text-decoration: none;
-        font-size: 17px;
+        padding: 5px 15px;
+        font-size: 0.9em;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
       }
       
       /* Change the color of links on hover */
@@ -26,37 +52,38 @@
         color: black;
       }
       
-      /* Add a color to the active/current link */
-      .topnav a.active {
-        background-color: #8666fa;
-        color: white;
-      }
       .welcome {
+        margin-left: 270px;
         color: rgb(0, 162, 255);
         font-size: 16px;
         text-align: middle;
       }
       .date {
+       margin-left: 270px;
       font-size: 12px;
       }
       .contact{
+        margin-left: 270px;
         text-align: center;
         font-size: 28px;
         color:rgb(0, 174, 255);
     }
     .news-text {
+      margin-left: 270px;
       color:rgb(0, 174, 255);
       font-size: 24px;
       text-align: middle;
     }
 
     .views {
-      color: rgb(255, 0, 0);
+      margin-left: 200px;
+      color: blueviolet;
       font-size: 24px;
-      text-align: middle;
+      text-align: center;
     }
 
     .important {
+      margin-left: 270px;
     text-align: center;
     }
     .btn1 {
@@ -122,15 +149,18 @@
     }
 
     .fauxcrop {
+      margin-left: 270px;
      size: 20px
      text-align center
     }
     .text-size-news {
+      margin-left: 270px;
     font-size: medium
     color rgb(0, 174, 255)
     }
     
     .main-projects-github {
+      margin-left: 270px;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -138,6 +168,7 @@
     }
 
     .canceled-projects-github {
+      margin-left: 270px;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -145,6 +176,7 @@
     }
 
     .soon-projects-github {
+      margin-left: 270px;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -152,11 +184,13 @@
     }
 
     .Abandoned {
+      margin-left: 270px;
       color: rgb(255, 0, 0);
       font-size: 16px;
       text-align: middle;
     }
     .Project-todo {
+      margin-left: 270px;
       color: rgb(179, 255, 0);
       font-size: 16px;
       text-align: middle;
