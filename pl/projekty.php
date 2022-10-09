@@ -10,8 +10,8 @@
 	<meta name="author" content="Zordon">
 	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 	
-	<link rel="stylesheet" href="../../../src/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../../../src/css/main.css">
+	<link rel="stylesheet" href="../src/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../src/css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
 </head>
 <body>
@@ -39,15 +39,15 @@
 						
 						<div class="dropdown-menu" aria-labelledby="submenu">
 						
-							<a class="dropdown-item" href="./csharp"> C# </a>
-							<a class="dropdown-item" href="./cpp"> C++ </a>
-                            <a class="dropdown-item" href="/lua"> Lua </a>
+							<a class="dropdown-item" href="./programowanie/csharp"> C# </a>
+							<a class="dropdown-item" href="./programowanie/cpp"> C++ </a>
+                            <a class="dropdown-item" href="./programowanie/lua"> Lua </a>
 							
 							<div class="dropdown-divider"></div>
 							
-							<a class="dropdown-item" href="./php"> PHP </a>
-							<a class="dropdown-item" href="./html5"> HTML5 </a>
-                            <a class="dropdown-item" href="./css"> CSS </a>
+							<a class="dropdown-item" href="./programowanie/php"> PHP </a>
+							<a class="dropdown-item" href="./programowanie/html5"> HTML5 </a>
+                            <a class="dropdown-item" href="./programowanie/css"> CSS </a>
 						
 						</div>
 						
@@ -74,22 +74,16 @@
 		</nav>
 	
 	</header>
-    <h1 align="center">C++</h1>
-    <!--program div start-->
-    <div style="margin:auto;text-align:center;background-color:black;width: 300px;">
-    <h1>Hello World!</h1>
-    <p>zwykły program hello world</p>
-    <a href="../../../cdn/cpp/tutorial1.cpp">Pobierz SRC</a>
-    <h1>  </h1>
-    </div>
-    <!--program div end-->
+    <div  style="margin:auto;text-align:center;">
+	<h1>Kiedyś To Zrobie</h1>
 
-    
+	 
+    </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	
-	<?php echo "<script src='../../../src/js/bootstrap.min.js'></script>"; ?>
+	<?php echo "<script src='../src/js/bootstrap.min.js'></script>"; ?>
 </body>
 </html>

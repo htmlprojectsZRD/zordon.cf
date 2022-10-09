@@ -58,8 +58,8 @@
 						<a class="nav-link" href="projekty.php"> Projekty </a>
 					</li>
 					
-					<li class="nav-item">
-						<a class="nav-item active" href="kontakt.php"> Kontakt </a>
+					<li class="nav-item active">
+						<a class="nav-link" href="kontakt.php"> Kontakt </a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="http://forum.azordon.cf"> Forum </a>
