@@ -30,7 +30,7 @@
 			
 				<ul class="navbar-nav mr-auto">
 				
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="index.php"> Strona Główna </a>
 					</li>
 					
@@ -59,7 +59,7 @@
 					</li>
 					
 					<li class="nav-item">
-						<a class="nav-link" href="kontakt.php"> Kontakt </a>
+						<a class="nav-item active" href="kontakt.php"> Kontakt </a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="http://forum.azordon.cf"> Forum </a>
@@ -74,10 +74,17 @@
 		</nav>
 	
 	</header>
-<div  style="margin:auto;text-align:center;">
-	<h1>Witaj! wybierz kategorie która cie interesuje</h1>
+    <div  style="margin:auto;text-align:center;">
+	<h1>Kontakt z mną</h1>
+    <a>  </a>
+    <a href="https://t.me/Tzordon">Telegram (rzadko odpisuje)</a>
+    <h1> </h1>
+    <a href="mailto:alexbajger999@gmail.com">Mail</a>
+    <h1> </h1>
+    <a href="formularz.php">Wypełnij Formularz</a>
+
 	 
-</div>
+    </div>
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	
