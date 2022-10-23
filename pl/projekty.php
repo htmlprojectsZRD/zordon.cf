@@ -10,15 +10,15 @@
 	<meta name="author" content="Zordon">
 	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
 	
-	<link rel="stylesheet" href="../src/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../src/css/main.css">
+	<link rel="stylesheet" href="http://web.azordon.cf/src/css/bootstrap.css">
+	<link rel="stylesheet" href="http://web.azordon.cf/src/css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
 </head>
 <body>
 
 <header>
 	
-		<nav class="navbar navbar-dark bg-jumpers navbar-expand-lg">
+		<nav class="navbar navbar-dark bg-primary navbar-expand-lg">
 		
 			<a class="navbar-brand" href="#">Azordon.cf</a>
 		
@@ -35,7 +35,7 @@
 					</li>
 					
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> Programowanie </a>
+						<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true"> Gotowce </a>
 						
 						<div class="dropdown-menu" aria-labelledby="submenu">
 						
@@ -84,6 +84,6 @@
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	
-	<?php echo "<script src='../src/js/bootstrap.min.js'></script>"; ?>
+	<?php echo "<script src='http://web.azordon.cf/src/js/bootstrap.min.js'></script>"; ?>
 </body>
 </html>
